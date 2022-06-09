@@ -1,0 +1,26 @@
+# Common shell functions
+alias less='less -r'
+alias tf='tail -f'
+alias l='less'
+alias lh='ls -alt | head' # see the last modified files
+alias screen='TERM=screen screen'
+alias cl='clear'
+
+alias ka9='killall -9'
+alias k9='kill -9'
+alias kill9ruby='pkill -9 ruby'
+alias k9r='pkill -9 ruby'
+
+alias s='source'
+alias sz='source ~/.zshrc'
+
+# Show human friendly numbers and colors
+alias df='df -h'
+alias ll='ls -alGh'
+alias ls='ls -Gh'
+alias du='du -h -d 2'
+
+# PS
+alias psa="ps aux"
+alias psg="ps aux | grep "
+alias psr='ps aux | grep ruby'

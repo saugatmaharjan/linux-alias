@@ -1,0 +1,5 @@
+alias dca="dcup api"
+alias dcad="dcup api -d"
+alias dcea="dce api bash"
+alias dcla="dcl api"
+alias dclfa="dclf api"
